@@ -4,27 +4,45 @@
 			<title> Cadastro de Clientes></title>
 				<meta charset="utf-8"/>
 			<script type="text/javascript" src="cadastroCliente.js"></script>
+			<link rel="stylesheet" type="text/css"  href="cadCliente.css" />
 		</head>
 		<body>
-		 
-			 <form action="/action_page.php">
+		  <ul class="menu">
+        <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a>
+                <ul>
+                      <li><a href="#">Dados dos Usuarios</a></li>
+                      <li><a href="#">Listagem dos Cadastrados</a></li>                    
+                </ul>
+            </li>
+        <li><a href="#">Links</a></li>
+			<!--<ul>
+			     <li><a href="#">href="http://www.google.com.br"</a></li>
+				 <li><a href="#"> href="http://www.facebook.com.br"</a></li>
+			</ul>-->
+                      
+</ul>
+</nav>
+<br><br>
+			 <form action="/action_page.php"><br><br>
 				Nome:<br>
 				<input type="text" name="Nome" value=" ">
 					<br>
 				Senha:<br>
-				<input type="password" name="Senha" value=" ">
-                 <br>
-				 Endereco:<br>
-				 <input type="text" name="Endereco" value=" ">
-					<br>
-				Data de Nascimento:<br>
-				 <input id="date" type="date" name="Data de Nascimento" value=" ">
+				<input type="text" name="Senha" value=" ">
+				<br><br>
 				
-				 
-					<br><br>
-					<button onclick="cadastarclientes()">Cadastrar Clientes</button>
+				<p> <a href="http://www.google.com.br" target="_blank">Cadastrar Cliente</a></p>
+				<p> <a href="http://www.facebook.com.br" target="_blank">Cadastrar Cliente</a></p>
+				
+				<input type="submit" value="Enviar">
+			</form> 
+			
+			
+		
 
-                </form>
+				<!--<button onclick="cadastarclientes()">Cadastrar Clientes</button>-->
+				
         </body>
 </html>		
 		
